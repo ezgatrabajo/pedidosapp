@@ -28,7 +28,7 @@
     },
     "android": {
       "package": "com.elementarystudio.pedidosapp",
-      "versionCode": 1.0
+      "versionCode": 1
     }
 
   }

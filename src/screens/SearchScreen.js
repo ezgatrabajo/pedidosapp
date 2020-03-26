@@ -1,10 +1,9 @@
 import React from 'react';
 import {   Text, View } from 'react-native';
-import MenuImage from '../components/MenuImage/MenuImage';
-//import { Header } from 'react-native-elements';
 
 
-export default class HomeScreen extends React.Component {
+
+export default class SearchScreen extends React.Component {
   
 
   constructor(props) {
@@ -18,7 +17,8 @@ export default class HomeScreen extends React.Component {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
         
-        <Text>Bienvenido!</Text>
+        <Text>Search Screen!</Text>
+        
       </View>
     );
   }
